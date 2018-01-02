@@ -1,0 +1,27 @@
+# An alert, used for error, success, or informational messages
+
+
+## classes
+- alert
+- alert-{{ options.variation }}
+
+> #alert variation: success
+=
+- alert
+- alert-success
+
+
+## primitive
+<View class="{{ classes }}">{{ content }}</View>
+
+> Please enter a valid email address #alert variation: danger
+=
+<View class="alert alert-danger">Please enter a valid email address</View>
+
+
+## html
+<div class="{{ classes }}">{{ content }}</div>
+
+> Please enter a valid email address #alert variation: danger
+=
+<div class="alert alert-danger">Please enter a valid email address</div>
