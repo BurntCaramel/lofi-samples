@@ -5,8 +5,8 @@
 - alert
 - alert-{{ options.variation }}
 
-> #alert variation: success
-=
+> variation: success
+### =
 - alert
 - alert-success
 
@@ -19,7 +19,7 @@
 > variation: danger
 > ---
 > Please enter a valid email address
-=
+### =
 ```jsx
 <View class="alert alert-danger">Please enter a valid email address</View>
 ```
@@ -33,7 +33,7 @@
 > variation: danger
 > ---
 > Please enter a valid email address
-=
+### =
 ```handlebars
 <div class="alert alert-danger">Please enter a valid email address</div>
 ```
