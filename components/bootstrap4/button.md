@@ -1,7 +1,7 @@
 # A Bootstrap button
 
 
-## classes
+## classes:
 - btn
 - btn-primary
 ? @tags.primary
@@ -11,10 +11,12 @@
 ? @tags.large
 
 
-## primitive
-component: View
-classes: @classes
+## primitive:
+### component: @View
+### classes: @classes
 
 
-## html
+## html:
+```handlebars
 <button class="{{ classes }}">{{ content }}</button>
+```
