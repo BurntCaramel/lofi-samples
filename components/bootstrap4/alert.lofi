@@ -1,7 +1,7 @@
 # An alert, used for error, success, or informational messages
 
 
-## classes
+## classes:
 - alert
 - alert-{{ options.variation }}
 
@@ -11,17 +11,29 @@
 - alert-success
 
 
-## primitive
+## primitive:
+```jsx
 <View class="{{ classes }}">{{ content }}</View>
+```
 
-> Please enter a valid email address #alert variation: danger
+> variation: danger
+> ---
+> Please enter a valid email address
 =
+```jsx
 <View class="alert alert-danger">Please enter a valid email address</View>
+```
 
 
 ## html
+```handlebars
 <div class="{{ classes }}">{{ content }}</div>
+```
 
-> Please enter a valid email address #alert variation: danger
+> variation: danger
+> ---
+> Please enter a valid email address
 =
+```handlebars
 <div class="alert alert-danger">Please enter a valid email address</div>
+```
